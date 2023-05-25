@@ -1,0 +1,116 @@
+@font-face {
+  font-family: InstaSans;
+  src: url(Instagram\ Sans.ttf);
+}
+body {
+  font-family: 'InstaSans', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #fafbfb;
+}
+
+.loginBox {
+  margin-top: 6%;
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 0.2px rgb(204, 204, 204) solid;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.inputBox {
+  width: 80%;
+  padding: 9px;
+  border: 0.2px rgb(204, 204, 204) solid;
+  border-radius: 3px;
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+.inputBox::placeholder {
+  font-size: 12px;
+}
+
+.loginBtn {
+  margin: 15px;
+  width: 87%;
+  padding: 6px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: rgba(0, 153, 255, 0.76);
+  cursor: pointer;
+}
+
+.linesOR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.line1,
+.line2 {
+  width: 103px;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.322);
+}
+
+.or {
+  margin: 0px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.404);
+}
+
+.facebook {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #3b5998;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.forgot {
+  font-size: 13px;
+  color: #3b5998;
+}
+
+.signUp {
+  margin-top: 30px;
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border: 0.2px rgb(204, 204, 204) solid;
+}
+
+.phones {
+  margin-top: 6%;
+  height: 600px;
+}
+
+.downloadBtns {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
