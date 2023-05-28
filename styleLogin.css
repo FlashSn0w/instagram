@@ -114,3 +114,9 @@ a:hover {
   gap: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 820px) {
+  .phones {
+    display: none;
+  }
+}
